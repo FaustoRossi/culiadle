@@ -22,8 +22,9 @@ h1 {
 	align-content: center;
 	margin-top: -0.5rem;
 	margin-bottom: -1.5rem;
-	color:#d7d382;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #d7d382;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
 }
 
 .keyboard {
@@ -75,7 +76,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 .key.wrong-location {
 	--hue: 50;
-	--saturation:51%;
+	--saturation: 51%;
 	--lightness: 47%;
 }
 
@@ -222,7 +223,18 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 	.keyboard {
 		margin-top: -10rem;
 		margin-bottom: 20em;
-		grid-template-columns: repeat(20, minmax(auto, 5em));
+		grid-template-columns: repeat(20, minmax(auto, 8em));
+		grid-auto-rows: 6.2em;
+	
 		height: 10em;
 	}
+
+	.key{
+			border-radius: 6px;
+	}
+	.guess-grid {
+		grid-template-columns: repeat(5, 6em);
+		grid-template-rows: repeat(6, 6em);
+	}
+	
 }
