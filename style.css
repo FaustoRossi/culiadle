@@ -222,7 +222,7 @@ h1 {
 	}
 	.keyboard {
 		margin-top: -10rem;
-		margin-bottom: 25em;
+		margin-bottom: 15em;
 		grid-template-columns: repeat(20, minmax(auto, 8em));
 		grid-auto-rows: 6.2em;
 	
